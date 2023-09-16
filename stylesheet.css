@@ -6,17 +6,84 @@
 
     for box color
     */ 
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body{
+
+font-family:"Montserrat", Verdana,sans-serif;
+padding: 20px;
+background-image:url(images/universe.jpg);
+
+}
+
 .mainBox {
 
-    width: 400px;
-    height: 500px;
-
+    width: 80%;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image:linear-gradient(#800020,    #f38f99);
+    padding:20px;
+    max-width: 500px;
+    margin-bottom: 5px;
 }
 
 
-.dangerVanilla{
+.menuItem{
 
     display: flex;
     justify-content: space-between;
+    padding: 10px;
+    color:#FFBF00;
+    
+}
+
+h1, .underTitle {
+
+    color:#AFE4DE ;
+    font-weight: bolder;
+}
+
+.underTitle {
+
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.footer {
+
+    padding:20px;
+    font-size:16px;
+    color: black;
+    border-top:5px solid #AFE4DE; ;
+   
+}
+
+a {
+    text-decoration: none;
+    color:#FFBF00;
+}
+
+h2 {
+
+    color: #dab885;
+    font-size: 30px;
+}
+
+
+.border {
+
+    border-bottom: 5px solid #AFE4DE;
+    padding-bottom: 10px;
+}
+
+.dessertsMenuBox {
+
+    padding-bottom: 10px;
+}
+
+a:hover{
+
+    font-weight: bold;
+    color:#AFE4DE;
 }
